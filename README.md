@@ -1,4 +1,5 @@
 - Used Laravel 8 and Breeze
 - You can use /sanctum/csrf-cookie to get your csrf token from the cookie which is to use for registration & login endpoints
 - You don't have to be authenticated to use any api endpoints (except for subscribing to a website by the user)
+- You can use `php artisan db:seed --class=WebsiteSeeder` for websites
 - Command to send posts to users: email:send-post {websiteId}
